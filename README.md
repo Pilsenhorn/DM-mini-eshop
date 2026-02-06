@@ -1,4 +1,5 @@
-DM Mini E-shop (Django)
+
+# DM Mini E-shop (Django)
 
 Minimalistic Django-based mini e-shop with landing page and lead collection.
 The project is designed as a real-world MVP for a small personal brand, with focus on clean architecture, low friction UX, and future scalability.
@@ -8,6 +9,7 @@ The project is designed as a real-world MVP for a small personal brand, with foc
 Features
 
 Landing & Marketing
+
 - Landing page as homepage
 - Email lead collection
 - Thank you page after submission
@@ -15,7 +17,9 @@ Landing & Marketing
 - Admin overview of collected emails
 
 E-shop Core
+
 - Product types:
+
   - Digital products
   - Physical products
   - Services
@@ -23,13 +27,15 @@ E-shop Core
 - Order status workflow
 - Admin management of products and orders
 
-Soft User Registration
+Soft User Registration:
+
 - No mandatory registration for customers
 - User account is created automatically during checkout
 - No password required at order time
 - Prepared for future account activation and order history
 
-UI
+UI:
+
 - Django templates
 - Tailwind CSS via CDN
 - Custom design tokens via CSS variables
@@ -37,7 +43,7 @@ UI
 
 ---
 
- Architecture Overview
+ Architecture Overview:
 
 - Django monolith
   - Templates for frontend
@@ -57,6 +63,7 @@ UI
 ---
 
 Project Structure:
+
 denisa_shop/
 ├─ core/ # Django settings & URLs
 ├─ leads/ # Landing page & email leads
@@ -67,12 +74,7 @@ denisa_shop/
 ├─ static/ # CSS (design tokens)
 └─ manage.py
 
----
-
-
----
-
-Tech Stack
+Tech Stack:
 
 - Python
 - Django
@@ -80,9 +82,3 @@ Tech Stack
 - Tailwind CSS (CDN)
 - HTML / CSS
 - Git & GitHub
-
----
-
-
-
-
